@@ -16,7 +16,7 @@ function ContactCard() {
 				'<label>Phone:</label>',
 				'{{ phone }}',
 				'<label>Username:</label>',
-				'<span class="username">{{ username }}</span>',
+				'<span class="username">{{ username.toLowerCase() }}</span>',
 			'</div>'
 		].join(''),
 		restrict: 'E'
